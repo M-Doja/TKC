@@ -1,0 +1,349 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/shoes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #180000;*/
+}
+
+#alphaWrap{
+  margin: auto 20px;
+}
+
+.items {
+  display: inline-block;
+  padding-left: .35%;
+  padding-right: .35%;
+}
+
+.movSrch{
+  max-width:500px;
+  padding:20px 10px;
+  margin: auto;
+}
+#home{
+  background: #e8e9e9;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+
+
+h1, .h2, .brand {
+  font-family: 'Varela Round', sans-serif;
+}
+.h2 {
+  font-size: 38px;
+}
+hr {
+border-bottom:1px solid #000;
+}
+.blue {
+  color: #00B7FF;
+}
+.red {
+  color: red;
+}
+.ul {
+  padding: 0;
+  background: #e8e9e9;
+  border-radius: 8px;
+  padding: 5px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.li {
+  display: none;
+}
+#index {
+  margin: 100px auto;
+}
+.logWrap {
+  background-size: cover;
+}
+
+
+/* UL styling */
+.flex-container {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+.wrap    {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* Each list item in unordered list / card wrapper */
+.flex-item {
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  max-width: 480px;
+}
+
+
+/* Home pg movie images*/
+.poster {
+  max-height: 475px;
+  max-width: 320px;
+  height: 100%;
+  width: 100%;
+  margin: 3% auto;
+}
+
+/* Forms and Form Inputs */
+.form-group input,
+.form-group textarea {
+  max-width: 500px;
+  display: none;
+}
+
+.form-search {
+  display: none;
+}
+/* BUTTON STYLES */
+.btn-nfo{
+  background-color: lightblue;
+  color:black;
+  font-weight: bold;
+}
+.btn-danger h4 {
+  text-shadow: 1px 1px 2px red;
+}
+.btn-danger img {
+  border: 1px solid #fff;
+}
+.btn-danger {
+  background-color: #000;
+  border-color: #000;
+  transition: box-shadow .3s  ease;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger:active:focus,
+.btn-danger:active:hover  {
+  border-color: red;
+  background-color: #000;
+  box-shadow: 8px 8px 8px grey;
+
+}
+
+.boldtext{
+  font-weight: bold;
+}
+
+.imgWatchList{
+  border: 3px solid #000;
+  margin: 0 auto 20px auto;
+}
+
+.whiteShade {
+  margin: 10px auto 20px;
+  background: rgba(255, 255, 255, 1);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 15px;
+  height: 100%;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+/* Genre and Actor filter search links */
+.actorBtn, .genreBtn {
+  background: none;
+  border: none;
+  outline: none;
+  transition: all .3s linear;
+}
+.actorBtn:hover, .genreBtn:hover {
+  border-bottom: 1px solid #000;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
+/* EL SPACER */
+.topSpace {
+  margin-top:3em;
+}
+.clapwrap form,
+.clapwrap ul{
+  box-shadow:6px 6px 9px #888;
+}
+
+.clapwrap li {
+  display: inline;
+  width: 5.5rem;
+  height: 80px;
+}
+.clapwrap ul {
+  margin: auto auto -28px;
+  max-width: 500px;
+}
+.colorband:nth-child(odd) {
+  background: white;
+  width: 15%;
+  display: inline-block;
+}
+.colorband:nth-child(even) {
+  width: 13%;
+  height: 13%;
+  display: inline-block;
+}
+
+#logForm{
+  border: 2px solid #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  opacity: .98;
+  padding: 5px;
+  border-radius: 0 0 8px 8px;
+  max-width: 500px;
+  text-align: center;
+  margin: 40px auto 20px;
+  z-index: 999;
+  color:#000;
+  font-weight: bold;
+  font-size: 20px;
+}
+#logForm input, #logForm .a {
+  background:none;
+  outline:none;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  font-size: 1.05em;
+  transition: all .3s linear;
+}
+#logForm input[type=submit]:hover, #logForm .a:hover {
+  border-color:red;
+  color:red;
+}
+
+/* Adjust removal modal */
+.modal {
+  margin: 80px auto;
+}
+
+/* Container for movie data */
+div.card {
+  height: 850px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.board {
+  max-width: 850px
+}
+
+/* Movie container styling*/
+.board, .card {
+  border: black 3px solid;
+  padding: 10px 20px 30px;
+  min-width: 310px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background: #fff;
+}
+
+/* Adjust H1 title in card */
+.h1top {
+  margin: 0;
+}
+
+/* Movie pg movie container sytling */
+.board {
+  box-shadow: 8px 8px 15px #333;
+}
+
+/* Adjust position of home pg movie images */
+.img-responsive {
+  margin: 20px auto;
+}
+
+/* HOME PAGE EDIT / DELETE BTNS */
+.forms-wrap #deleteBtnForm,
+.forms-wrap #viewBtnForm,
+.forms-wrap #editBtnForm {
+  display: inline-block;
+}
+
+/* Search pg form adjustment */
+#addForm {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* HOME PAGE STAR RATING STYLE */
+.glyphicon-star {
+  font-size: 20px;
+  color: #e67e22;
+  margin-left: 5px;
+}
+
+/* EDIT PAGE INPUT / TEXTAREA  */
+#editForm input,
+#editForm textarea {
+  max-width: 700px;
+  margin: 15px auto;
+
+}
+#editForm textarea {
+  width: 500px;
+  height: 150px;
+  max-width: 700px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.8rem;
+}
+
+/* -----  Mobile View  ------- */
+@media (max-width: 787px){
+  .nav>li>a {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+    body { /* JUST FOR TESTING */
+        /*background-color: lightgreen;*/
+    }
+    #editForm textarea {
+      width: 300px;
+      height: 150px;
+      max-width: 700px;
+
+    }
+    div.card {
+      height: 900px;
+    }
+
+}

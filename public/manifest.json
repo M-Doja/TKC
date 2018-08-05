@@ -1,0 +1,11 @@
+{
+  "name": "The Kicks Club",
+  "short_name": "TKC",
+  "theme_color": "#2196f3",
+  "lang": "en-US",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/views/index.ejs"
+}
